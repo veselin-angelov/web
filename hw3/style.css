@@ -11,7 +11,7 @@ body {
 .site-wrapper {
     max-width: 1700px;
     width: 100%;
-    margin: 50px auto 0;
+    margin: 50px auto 50px;
     background: #aaa;
     box-shadow: 0 0 40px - 10px rgba(0, 0, 0, .5);
 }
@@ -45,7 +45,6 @@ body {
     display: block;
     text-decoration: none;
     text-align: center;
-
 }
 
 .site-navigation a:hover {
@@ -59,7 +58,6 @@ body {
 }
 
 .site-inner-content {
-    /* flex: 0 0 300px; */
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -67,7 +65,6 @@ body {
 
 .site-footer {
     background: rgb(139, 139, 139);
-
     position: relative;
     left: 0;
     bottom: 0;
@@ -82,5 +79,4 @@ body {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-
 }
