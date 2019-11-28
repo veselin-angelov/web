@@ -3,7 +3,7 @@
 }
 
 body {
-    background: rgb(32, 30, 30);
+    background: white;
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
     max-width: 1700px;
     width: 100%;
     margin: 50px auto 0;
-    background: rgb(177, 28, 48);
+    background: #aaa;
     box-shadow: 0 0 40px - 10px rgba(0, 0, 0, .5);
 }
 
@@ -26,6 +26,10 @@ body {
     margin: 0;
 }
 
+.site-navigation {
+    background: rgb(139, 139, 139);
+}
+
 .site-navigation ul {
     display: flex;
     justify-content: center;
@@ -37,7 +41,7 @@ body {
 
 .site-navigation a {
     padding: 20px;
-    color: white;
+    color: black;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -46,6 +50,7 @@ body {
 
 .site-navigation a:hover {
     background-color: rgb(56, 13, 13);
+    color: white;
 }
 
 .site-content {
@@ -61,8 +66,9 @@ body {
 }
 
 .site-footer {
-    background: red;
-    position: fixed;
+    background: rgb(139, 139, 139);
+
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
