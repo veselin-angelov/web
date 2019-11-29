@@ -63,6 +63,10 @@ body {
     padding-bottom: 20px;
 }
 
+.site-inner-content img {
+    max-width: 100%;
+}
+
 .site-footer {
     background: rgb(139, 139, 139);
     position: relative;
